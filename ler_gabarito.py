@@ -83,7 +83,7 @@ def detectar_opcoes(imagem_gabarito):
         
         # Filtros: Tentativa de isolar SOMENTE as bolhas de resposta
         # Ajuste os valores (área, proporção) de acordo com o seu gabarito.
-        if 800 < area < 3500:  # Filtro por área razoável para uma bolha
+        if 800 < area < 890:  # Filtro por área razoável para uma bolha
             # Filtro por circularidade (largura e altura devem ser semelhantes)
             aspect_ratio = w / h
             if 0.9 <= aspect_ratio <= 1.1:
